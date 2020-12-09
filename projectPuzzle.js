@@ -33,26 +33,6 @@ const chunkListTwo = chunk(dataGenerator(DATA_TWO), 3);
 const chunkListThree = chunk(dataGenerator(DATA_THREE), 3);
 const chunkListFour = chunk(dataGenerator(DATA_FOUR), 3);
 
-//Checking at least one half solution
-// const hsChecker = chunkListOne => {
-
-// 	let x = 0;
-// 	while (true) {
-// 		if() {
-
-// 			return true;
-// 		}
-// 	}
-// 	return false;
-// };
-
-const test = puzzle => {
-	for (i = 0; i < 30; i++) {
-		console.log(puzzle[i]);
-	}
-};
-
-console.log(test(chunkListOne));
 
 // console.log('Pizza One: ', chunkListOne);
 // console.log('Pizza Two: ', chunkListTwo);
